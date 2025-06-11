@@ -1,0 +1,215 @@
+{
+  "total_samples": 4000,
+  "perfect_matches": 1,
+  "partial_matches": 707,
+  "no_matches": 3292,
+  "error_types": {
+    "target_errors": 3045,
+    "argument_errors": 3038,
+    "group_errors": 711,
+    "hate_errors": 357
+  },
+  "examples": {
+    "perfect": [
+      {
+        "index": 3703,
+        "prediction": [
+          {
+            "target": "敌人",
+            "argument": "说的都是错的吗",
+            "group": "non-hate",
+            "hate": "non-hate"
+          }
+        ],
+        "gold": [
+          {
+            "target": "敌人",
+            "argument": "说的都是错的吗",
+            "group": "non-hate",
+            "hate": "non-hate"
+          }
+        ]
+      }
+    ],
+    "partial": [
+      {
+        "index": 9,
+        "prediction": [
+          {
+            "target": "片",
+            "argument": "图片暂时发不出来等我",
+            "group": "non-hate",
+            "hate": "non-hate"
+          }
+        ],
+        "gold": [
+          {
+            "target": "图片",
+            "argument": "暂时发不出来",
+            "group": "non-hate",
+            "hate": "non-hate"
+          }
+        ]
+      },
+      {
+        "index": 10,
+        "prediction": [
+          {
+            "target": "密",
+            "argument": "发现咯",
+            "group": "non-hate",
+            "hate": "non-hate"
+          }
+        ],
+        "gold": [
+          {
+            "target": "秘密",
+            "argument": "被发现咯",
+            "group": "non-hate",
+            "hate": "non-hate"
+          }
+        ]
+      },
+      {
+        "index": 12,
+        "prediction": [
+          {
+            "target": "裔结",
+            "argument": "我将来都不会跟非裔结",
+            "group": "Racism",
+            "hate": "hate"
+          }
+        ],
+        "gold": [
+          {
+            "target": "非裔",
+            "argument": "我将来都不会跟非裔结婚",
+            "group": "Racism",
+            "hate": "hate"
+          }
+        ]
+      },
+      {
+        "index": 15,
+        "prediction": [
+          {
+            "target": "间方将",
+            "argument": "立双方视为叛徒。",
+            "group": "non-hate",
+            "hate": "non-hate"
+          }
+        ],
+        "gold": [
+          {
+            "target": "中间方",
+            "argument": "被对立双方视为叛徒",
+            "group": "non-hate",
+            "hate": "non-hate"
+          }
+        ]
+      },
+      {
+        "index": 21,
+        "prediction": [
+          {
+            "target": "人",
+            "argument": "会嫁给黑",
+            "group": "Racism",
+            "hate": "hate"
+          }
+        ],
+        "gold": [
+          {
+            "target": "黑人",
+            "argument": "正常人不会嫁给黑人",
+            "group": "Racism",
+            "hate": "hate"
+          }
+        ]
+      }
+    ],
+    "errors": [
+      {
+        "index": 0,
+        "prediction": [
+          {
+            "target": "爹",
+            "argument": "处扔",
+            "group": "Racism",
+            "hate": "hate"
+          }
+        ],
+        "gold": [
+          {
+            "target": "没爹的黑孩",
+            "argument": "到处扔",
+            "group": "Racism",
+            "hate": "hate"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "prediction": [],
+        "gold": [
+          {
+            "target": "人",
+            "argument": "大可不必学狗",
+            "group": "non-hate",
+            "hate": "non-hate"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "prediction": [],
+        "gold": [
+          {
+            "target": "一群人",
+            "argument": "不等男方回应直接定论",
+            "group": "others",
+            "hate": "hate"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "prediction": [
+          {
+            "target": "些人地",
+            "argument": "有些人地域黑已经疯了",
+            "group": "non-hate",
+            "hate": "non-hate"
+          }
+        ],
+        "gold": [
+          {
+            "target": "有些人",
+            "argument": "地域黑已经疯了",
+            "group": "Region",
+            "hate": "hate"
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "prediction": [
+          {
+            "target": "佬都",
+            "argument": "因为很少人会在职场中",
+            "group": "LGBTQ",
+            "hate": "hate"
+          }
+        ],
+        "gold": [
+          {
+            "target": "基佬",
+            "argument": "没工作没社会贡献咋活呢",
+            "group": "LGBTQ",
+            "hate": "hate"
+          }
+        ]
+      }
+    ]
+  }
+}
